@@ -114,6 +114,7 @@ p {
 
 .bottom-section {
   display: block;
+  background: linear-gradient(to right, #f5f5f5 58%, #1a1a1a 42%);
   background-color: #f5f5f5;
   margin: auto;
   padding: 0;
