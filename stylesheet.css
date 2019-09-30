@@ -24,6 +24,15 @@ p {
   color: rgb(85,85,85);
 }
 
+.black-back {
+  font: 400 14px/1.5 'Open Sans', serif;
+  color: #f5f5f5;
+}
+
+a > .black-back {
+  color: #eee;
+}
+
 .bg-indigo{
  /* background-image: linear-gradient(to bottom right, rgb(168,221,239), rgb(168,221,239), rgb(51,134,182)); */
   background-color: rgb(168,221,239);
@@ -192,7 +201,7 @@ p {
   box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.30);
 }
 
-strong, em, a {
+a {
   /*color: #D0021B;*/
   color: #D0021B;
 }
