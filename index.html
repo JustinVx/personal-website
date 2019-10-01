@@ -52,27 +52,48 @@
         </div>
       </div>
       <div class="row top-part-2 justify-content-md-start">
-        <div class="col-md-6 offset-md-1 welcome-block bg-transparent">
+        <div class="col-md-6 offset-md-1 welcome-block">
           <div class="welcome-message">
-            <div class="welcome-first">
-              
+            <!--<span class="my-2">Welcome!</span>
+            <p>My name is <strong>Justin Venbrux</strong>.</p>
+            <p>I like to create cool things that help people.</p>
+            <p>I work as an Interaction / Product Designer — and I also do some product management work.</p>
+            <p>This website shows some of what I've done.</p>
+            <p><strong>Contact me</strong> to learn what I want to be doing.</p>
+            <p><a href="javascript:history.go(0)">_</a></p>-->
+            <div id="typed-string">
+              <span class="my-2">Welcome!</span>
             </div>
-            <div class="welcome-second">
-              <div id="typed-strings">
-                <p>Welcome!</p>
-                <p>My name is <strong>Justin Venbrux</strong>.</p>
-                <p>I like to create cool things that help people.</p>
-                <p>I work as an Interaction / Product Designer — and I also do some product management work.</p>
-                <p>This website shows some of what I've done.</p>
-                <p><strong>Contact me</strong> to learn what I want to be doing.</p>
-                <p><a href="javascript:history.go(0)">_</a></p>
-              </div>
-              <span id="typed"></span>
+            <span id="typed" class="welcome-string"></span>
+
+            <div id="typed-string2">
+              <span class="my-2">My name is <strong>Justin Venbrux</strong>.</span>
             </div>
+            <span id="typed2" class="welcome-string"></span>
+
+            <div id="typed-string3">
+              <span class="my-2">I like to create cool things that help people.</span>
+            </div>
+            <span id="typed3" class="welcome-string"></span>
+
+            <div id="typed-string4">
+              <span class="my-2">I work as an Interaction / Product Designer — and I also do some product management work.</span>
+            </div>
+            <span id="typed4" class="welcome-string"></span>
+
+            <div id="typed-string5">
+              <span class="my-2">This website shows some of what I've done. <strong>Contact me</strong> to learn what I want to be doing.</span>
+            </div>
+            <span id="typed5" class="welcome-string"></span>
+
+            <div class="welcome-second">              
+
+            </div>
+
             <!--<div class="welcome-first"><div class="my-name">JUSTIN VENBRUX</div></div>-->
           </div>
         </div>
-        <div class="col-md-3 offset-md-1 lax" data-lax-preset="lazy">
+        <div class="col-md-3 offset-md-1 lax" data-lax-translate-y="0 0, 400 400">
           <img src="justin-2.jpeg" class="img-fluid img-intro d-none d-md-block" />
           <img src="justin.jpeg" class="img-fluid img-intro d-md-none" />
         </div>
@@ -300,15 +321,39 @@
 
     <script>
       var typed = new Typed('#typed', {
-        stringsElement: '#typed-strings',
+        stringsElement: '#typed-string',
+        typeSpeed: 40,
+        startDelay: 2000,
+        showCursor: false
+      });
+      var typed2 = new Typed('#typed2', {
+        stringsElement: '#typed-string2',
         loop: false,
         typeSpeed: 40,
         backSpeed: 15,
         backDelay: 1500,
-        startDelay: 2000,
+        startDelay: 3000,
         showCursor: false,
         shuffle: false,
         smartBackspace: false
+      });
+      var typed3 = new Typed('#typed3', {
+        stringsElement: '#typed-string3',
+        typeSpeed: 40,
+        startDelay: 5000,
+        showCursor: false
+      });
+      var typed4 = new Typed('#typed4', {
+        stringsElement: '#typed-string4',
+        typeSpeed: 30,
+        startDelay: 8000,
+        showCursor: false
+      });
+      var typed5 = new Typed('#typed5', {
+        stringsElement: '#typed-string5',
+        typeSpeed: 20,
+        startDelay: 13000,
+        showCursor: false
       });
     </script>
   </body>

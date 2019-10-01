@@ -136,18 +136,23 @@ a > .black-back {
 }
 
 .welcome-block {
-  background-color: #fafafa;
   padding: 2em;
 }
 
+.welcome-string {
+  display: block;
+  font: 700 36pt/1.2 'Heebo', sans-serif;
+  margin: 0px 0 25px;
+}
+
 .welcome-message {
-  margin: auto;
+  margin: sauto;
   text-align: left;
   color: #222;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
+  position: srelative;
+  top: s50%;
+  transform: xtranslateY(-50%);
+  -webkit-transform: xtranslateY(-50%);
 }
 
 .welcome-first {
