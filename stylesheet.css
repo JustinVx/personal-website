@@ -91,10 +91,10 @@ a > .black-back {
 .make-space-m {height: 50px;}
 .make-space-s {height: 25px;}
 
-.top-part-1 {height: 10%;}
-.top-part-2 {height: 40%;}
+.top-part-1 {height: 0%;}
+.top-part-2 {height: 70%;}
 .top-part-3 {height: 30%;}
-.top-part-4 {height: 20%;}
+.top-part-4 {height: 0%;}
 
 .top-section {
   display: block;
@@ -168,6 +168,17 @@ a > .black-back {
   color: rgb(200,200,200);
   letter-spacing: 1px;
   /*text-transform: uppercase;*/
+}
+
+.my-name-large {
+  font: 900 32pt/1.2 'Menlo', sans-serif;
+  color: rgb(0,0,0);
+  /*border-bottom: 6px solid rgb(100,100,100);*/
+  font-style: italic;
+}
+
+#cool-text {
+  color: red;
 }
 
 .my-page {
