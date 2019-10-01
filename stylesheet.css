@@ -24,6 +24,10 @@ p {
   color: rgb(85,85,85);
 }
 
+.btn {
+  border-radius: 1em;
+}
+
 .black-back {
   font: 400 14px/1.5 'Open Sans', serif;
   color: #f5f5f5;
@@ -35,15 +39,16 @@ a > .black-back {
 
 .bg-indigo{
  /* background-image: linear-gradient(to bottom right, rgb(168,221,239), rgb(168,221,239), rgb(51,134,182)); */
-  background-color: rgb(168,221,239);
-  animation-name: sky-change;
+  /*background: linear-gradient(to right, #1a1a1a 0%, #c5c5c5 100%);*/
+  background-color: #f5f5f5;
+  animation-name: sky-change2;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 
 .show-name{
-  animation: it-appears 6s; 
+  animation: it-appears 5s; 
 }
 
 @keyframes it-appears {
@@ -92,8 +97,8 @@ a > .black-back {
 .make-space-s {height: 25px;}
 
 .top-part-1 {height: 0%;}
-.top-part-2 {height: 70%;}
-.top-part-3 {height: 30%;}
+.top-part-2 {height: 65%;}
+.top-part-3 {height: 10%;}
 .top-part-4 {height: 0%;}
 
 .top-section {
@@ -148,7 +153,7 @@ a > .black-back {
 .welcome-message {
   margin: sauto;
   text-align: left;
-  color: #222;
+  color: #353535;
   position: srelative;
   top: s50%;
   transform: xtranslateY(-50%);
@@ -194,10 +199,14 @@ a > .black-back {
   margin: 25px 0 5px;
 }
 
-.explore {
-  font: 700 10pt/1.0 'Press Start 2P', cursive;
-  color: white;
-  animation: it-appears 25s, skew-scale 1s 24s; 
+.btn-explore {
+  /*font: 700 12pt/1.0 'Menlo', sans-serif;*/
+  animation: it-appears 17s;
+  background-color: #D0021B;
+}
+
+.btn-contact {
+  animation: it-appears 19s;
 }
 
 .more {
@@ -208,6 +217,11 @@ a > .black-back {
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
+}
+
+.date {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
 }
 
 .case-card {
