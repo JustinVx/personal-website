@@ -15,8 +15,8 @@
 	  <!-- Viewport -->
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	  <!-- CSS including Bootstrap -->
-	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	  <!-- CSS (incl Bootstrap) -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 	  <!-- jQuery -->
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -24,113 +24,36 @@
 	  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 	</head>
 	<body>
-		<div class="container-fluid bottom-section" id="projects">
-      <nav class="navbar navbar-light bg-white py-3">
-        <a class="navbar-brand mr-auto small-font my-name" href="index.html">Justin Venbrux</a>
-      </nav>
-      <div class="row mt-5 mb-3 px-3">
-		  	<div class="col-md-2"></div>
-		  	<div class="col-10">
-		  		<a class="my-page mr-2" href="projects.html">Projects</a>
-		  	</div>
-		  </div>
-		  <div class="row yellow">
-				<div class="col-0 blue"></div>
-				<div class="col-3 red"></div>
-			</div>
-      <div class="row px-3">
-        
-      </div>
-      <div class="row my-2 p-3">
-        <div class="col-md-2"></div>
-        <a href="#" class="col-6 col-md-3 project-card rounded p-0">
-        	<div>
-        		<img src="frederick-home.png" class="img-fluid img-start">
-        		<img src="locus-home.png" class="img-fluid img-hover">
-        	</div>
-        	<div>
-        		<h3><span>Taming Esortra</span></h3>
-          	<p>Graduation</p>
+		
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+      Launch demo modal
+    </button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
           </div>
-        </a>
-      </div>
-      <!-- ouder hieronder -->
-      <a href="taming-esortra.html" class="row my-2 p-3">
-        <div class="col-md-2"></div>
-        <div class="col-6 col-md-3">
-          <img src="frederick-home.png" class="img-fluid img-start">
-          <img src="locus-home.png" class="img-fluid img-hover">
-          <h3><span>Taming Esortra</span></h3>
-          <p>Graduation</p>
-        </div>
-        <div class="col-6 col-md-3">
-          <img src="furdinand-home.png" class="img-fluid img-start">
-          <video class="embed-responsive img-hover shadow" autoplay loop>
-            <source src="furdinand-gif.mp4" type=video/mp4>
-            <img src="locus-home.png" class="img-fluid img-hover">
-          </video>
-          <h3><span>Furdinand</span></h3>
-          <p>Dit gaat over Furdinand</p>
-        </div>
-      </a>
-      <a href="#" class="row my-2 p-3">
-        <div class="col-md-2"></div>
-        <div class="col-6 col-md-3">
-          
-        </div>
-        <div class="col-6 col-md-3">
-          
-        </div>
-      </a>
-      <a href="#" class="row my-2 p-3">
-        <div class="col-md-2"></div>
-        <div class="col-6 col-md-2">
-          <img src="locus-home.png" class="img-fluid shadow">
-        </div>
-        <div class="col-6 col-md-4">
-          <h3><span>Locus</span></h3>
-          <p>A clunky to use navigation app was redesigned into an app that helps outdoor enthusiasts to plan, experience and relive their perfect route. </p>
-        </div>
-      </a>
-      <a href="#" class="row my-2 p-3">
-        <div class="col-md-2"></div>
-        <div class="col-6 col-md-2">
-          <img src="blocks-home.png" class="img-fluid img-start shadow">
-          <img src="furdinand-home.png" class="img-fluid img-hover shadow">
-        </div>
-        <div class="col-6 col-md-4">
-          <h3><span>Blocks</span></h3>
-          <p>A clunky to use navigation app was redesigned into an app that helps outdoor enthusiasts to plan, to finish and to relive their perfect route. </p>
-        </div>
-      </a>
-      <a href="#" class="row my-2 p-3">
-        <div class="col-md-2"></div>
-        <div class="col-6 col-md-2">
-          <img src="ontrack-home.png" class="img-fluid shadow">
-        </div>
-        <div class="col-6 col-md-4">
-          <h3><span>Miscellaneous</span></h3>
-          <p>A collection of other stuff and projects I've worked on. </p>
-        </div>
-      </a>
-      <div class="row my-2 p-3">
-        <div class="col-md-1">2019</div>
-        <div class="col-6 col-md-2">
-          <img src="locus-home.png" class="img-fluid shadow">
-        </div>
-        <div class="col-6 col-md-5">
-          <p>For a health care innovation start-up I work as an Interaction Designer and do some Product Management work. Some of the projects I'm working on are a wound care app, a </p>
         </div>
       </div>
-      <div class="row my-2 p-3">
-        <div class="col-md-1"></div>
-        <div class="col-6 col-md-1">
-          <img src="locus-home.png" class="img-fluid shadow">
-        </div>
-        <div class="col-6 col-md-5">
-          <p>Won the audience price at the Dutch Hack Health Rotterdam where we won the audience price.</p>
-        </div>
-      </div>
-    </div>
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <!-- Popper -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<!-- Bootstrap js -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</body>
 </html>

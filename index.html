@@ -64,7 +64,7 @@
           </div>
         </div>
         <div class="d-none d-md-block col-md-3 offset-md-1 lax" data-lax-translate-y="0 0, 400 100">
-          <img src="justin.jpeg" class="img-fluid img-intro show-name" />
+          <img src="justin-2.jpeg" class="img-fluid img-intro show-name" />
         </div>
       </div>
       <div class="row top-part-2">
@@ -103,15 +103,10 @@
 
       <div class="row spacer-s"></div>
 
-      <div class="row mt-5 mb-2 p-2">
-        <div class="col-6 offset-md-1">
-        </div>
-      </div>
-
       <div class="row lax" data-lax-preset="eager">
         <div class="col-9 offset-2 col-md-4 offset-md-2">
-          <a href="">
-            <div class="case-container">
+          <a href data-toggle="modal" data-target="#nothingHereModalCenter">
+            <div class="case-container shadow">
               <video class="embed-responsive case-image" autoplay muted loop>
                 <source src="1minuut-gif.mp4" type=video/mp4>
                 <source src="1minuut-gif.webm" type=video/webm>
@@ -133,6 +128,29 @@
                 <li>Reducing mistakes with handing out medication in nursing homes.</li>
               </ul>
             </p> 
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="nothingHereModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content p-2">
+            <!--<div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Contact me to learn more</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>-->
+            <div class="modal-body">
+              <h3 class="my-3">Contact me to learn more.</h3>
+              <p><a class="" href="mailto:info@justinvenbrux.nl" role="button">E-mail me</a> or take a look at one of my other projects:</p>
+              <a href="taming-esortra.html"><img src="img/plogo/taming-esortra-logo.png" class="plogo"></a>
+              <a href="furdinand.html"><img src="img/plogo/furdinand-logo.png" class="plogo"></a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>
@@ -170,14 +188,16 @@
 
       <div class="row lax" data-lax-preset="eager">
         <div class="col-9 offset-2 col-md-4 offset-md-2">
-          <div class="case-container">
-            <img src="taming-home.png" class="img-fluid">
-            <div class="case-overlay">
-              <div class="case-caption">
-                <img src="img/plogo/taming-esortra-logo.png" class="plogo">
+          <a href="taming-esortra.html">
+            <div class="case-container shadow">
+              <img src="taming-home.png" class="img-fluid">
+              <div class="case-overlay">
+                <div class="case-caption">
+                  <img src="img/plogo/taming-esortra-logo.png" class="plogo">
+                </div>
               </div>
             </div>
-          </div>
+          </a>
           <div class="mt-4">
             <h4>Taming Esortra</h4>
             <p>A persuasive game that uses narrative and data to motivate osteoarthritis patients to exercise.</p>
@@ -220,8 +240,8 @@
 
       <div class="row lax" data-lax-preset="eager">
         <div class="col-9 offset-2 col-md-4 offset-md-2">
-          <a href="">
-            <div class="case-container">
+          <a href data-toggle="modal" data-target="#nothingHereModalCenter">
+            <div class="case-container shadow">
               <video class="embed-responsive" autoplay muted loop poster="furdinand-home.png">
                 <source src="furdinand-gif.mp4" type=video/mp4>
                 <source src="furdinand-gif.webm" type=video/webm>
@@ -245,8 +265,8 @@
 
       <div class="row lax" data-lax-preset="eager">
         <div class="col-9 offset-2 col-md-4 offset-md-2">
-          <a href="">
-            <div class="case-container">
+          <a href data-toggle="modal" data-target="#nothingHereModalCenter">
+            <div class="case-container shadow">
               <img src="locus-home.png" class="img-fluid">
               <div class="case-overlay">
                 <div class="case-caption">
@@ -266,8 +286,8 @@
 
       <div class="row lax" data-lax-preset="eager">
         <div class="col-9 offset-2 col-md-4 offset-md-2">
-          <a href="">
-            <div class="case-container">
+          <a href data-toggle="modal" data-target="#nothingHereModalCenter">
+            <div class="case-container shadow">
               <img src="blocks-home.png" class="img-fluid">
               <div class="case-overlay">
                 <div class="case-caption">
@@ -318,7 +338,7 @@
       
     </div>
 
-
+    <!-- Typedjs settings -->
     <script>
       var typed = new Typed('#typed', {
         stringsElement: '#typed-string',
@@ -340,5 +360,11 @@
         smartBackspace: false
       });
     </script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
