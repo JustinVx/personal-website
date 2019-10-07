@@ -39,7 +39,12 @@
   </head>
   <body>
     <div class="container-fluid top-section">
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent p-5">
+      <!--<div class="fullscreen-bg">
+          <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+              <source src="bg-c.mp4" type="video/mp4">
+          </video>
+      </div>-->
+      <nav class="navbar sticky-top4 navbar-expand-lg navbar-light bg-transparent p-5">
         <a class="navbar-brand my-name show-name rotate" href="index.html">Justin Venbrux</a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
@@ -54,11 +59,12 @@
             <div id="typed-string">
               <span class="my-2">Welcome!</span>
               <span class="my-2">I'm <span class="my-name-large">Justin</span> — I work as an Interaction / Product Designer and I also do some product management work.</span>
+              <span class="my-2">I'm <span class="my-name-large">Justin</span> — I like to create <span>cool things</span> that help people.</span>
             </div>
             <span id="typed" class="welcome-string"></span>
 
             <div id="typed-string2">
-              <span class="my-2">I like to create <span>cool things</span> that help people.</span>
+              
             </div>
             <span id="typed2" class="welcome-string"></span>
           </div>
@@ -90,7 +96,7 @@
 
       <div class="row lax d-none d-md-flex" data-lax-preset="fadeIn">
         <div class="col-md-1 offset-md-7">
-          <img src="img/wlogo/1minuut.png" class="img-fluid">
+          <img src="img/wlogo/1Minuut.png" class="img-fluid">
         </div>
         <div class="col-md-3 d-flex">
           <div class="my-auto text-light">
@@ -159,7 +165,7 @@
 
       <div class="row lax d-none d-md-flex" data-lax-preset="fadeIn">
         <div class="col-md-1 offset-md-7">
-          <img src="img/wlogo/dutch-hacking-health.png" class="img-fluid">
+          <img src="img/wlogo/Dutch-Hacking-Health.png" class="img-fluid">
         </div>
         <div class="col-md-3 d-flex text-light">
           <div class="my-auto">
@@ -210,7 +216,7 @@
 
       <div class="row lax d-none d-md-flex" data-lax-preset="fadeIn">
         <div class="col-md-1 offset-md-7">
-          <img src="img/wlogo/secrid.png" class="img-fluid">
+          <img src="img/wlogo/Secrid.png" class="img-fluid">
         </div>
         <div class="col-md-3 d-flex">
           <div class="my-auto text-light">
@@ -225,7 +231,7 @@
 
       <div class="row lax d-none d-md-flex" data-lax-preset="fadeIn">
         <div class="col-md-1 offset-md-7">
-          <img src="img/wlogo/klm.png" class="img-fluid">
+          <img src="img/wlogo/KLM.png" class="img-fluid">
         </div>
         <div class="col-md-3 d-flex">
           <div class="my-auto text-light">
@@ -307,7 +313,7 @@
 
       <div class="row lax d-none d-md-flex" data-lax-preset="fadeIn">
         <div class="col-md-1 offset-md-7">
-          <img src="img/wlogo/veringmeier.png" class="img-fluid">
+          <img src="img/wlogo/Veringmeier.png" class="img-fluid">
         </div>
         <div class="col-md-3 d-flex">
           <div class="my-auto text-light">
@@ -349,7 +355,7 @@
         startDelay: 500,
         showCursor: false,
         shuffle: false,
-        smartBackspace: false
+        smartBackspace: true
       });
       var typed2 = new Typed('#typed2', {
         stringsElement: '#typed-string2',

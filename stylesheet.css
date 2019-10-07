@@ -67,8 +67,32 @@ dl, ol, ul {
   padding: 0;
 }
 
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+}
+
 .show-name{
-  animation: it-appears 5s; 
+  animation: it-appears 9s; 
 }
 
 @keyframes it-appears {
@@ -89,15 +113,18 @@ dl, ol, ul {
   box-shadow: 20px 20px;
 }
 
-.welcome-message {
-  text-align: left;
-  color: #000;
-}
+@media screen and (min-width: 1200px) {
+  h1 {font-size: 108px;}
+  h2 {font-size: 68px;}
+  p {font-size: 24px;}
+  dl, ol, ul {font-size: 22px;}
+  .welcome-string {font: 700 68px/1.2 'Heebo', sans-serif;} 
+  .my-name-large {font: 900 65px/1.2 'Menlo', sans-serif;} 
 
-.welcome-string {
-  display: block;
-  font: 700 5.0vh/1.2 'Heebo', sans-serif;
-  margin: 0px 0 25px;
+  .img-intro {
+    height: 300px;
+    width: 300px;
+  }
 }
 
 .my-name {
@@ -107,20 +134,49 @@ dl, ol, ul {
   letter-spacing: 1px;
 }
 
+.welcome-message {
+  text-align: left;
+  color: #000;
+}
+
+.welcome-string {
+  display: block;
+  margin: 0px 0 25px;
+}
+
 .my-name-large {
-  font: 900 4.7vh/1.2 'Menlo', sans-serif;
   color: rgb(0,0,0);
   letter-spacing: -1px;
   font-style: bold;
 }
 
+@media only screen and (max-height: 767px) {
+  .welcome-string {
+    font: 700 5.5vh/1.2 'Heebo', sans-serif;
+  } 
+  .my-name-large {
+    font: 900 5.2vh/1.2 'Menlo', sans-serif;
+  } 
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-string {
+    font: 700 58px/1.2 'Heebo', sans-serif;
+  } 
+  .my-name-large {
+    font: 900 55px/1.2 'Menlo', sans-serif;
+  } 
+}
+
+
+
 .btn-explore {
-  animation: it-appears 17s, pulse 1s infinite;
+  animation: it-appears 13s, pulse 1s infinite;
   background-color: #D0021B;
 }
 
 .btn-contact {
-  animation: it-appears 19s;
+  animation: it-appears 15s;
 }
 
 @media only screen and (max-height: 767px) {
