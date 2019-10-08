@@ -39,6 +39,12 @@ dl, ol, ul {
   font-size: 17px;
 }
 
+blockquote {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+
 .btn {
   border-radius: 1em;
 }
@@ -113,7 +119,7 @@ dl, ol, ul {
   box-shadow: 20px 20px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   h1 {font-size: 108px;}
   h2 {font-size: 68px;}
   p {font-size: 24px;}
@@ -161,10 +167,10 @@ dl, ol, ul {
 
 @media screen and (min-width: 768px) {
   .welcome-string {
-    font: 700 58px/1.2 'Heebo', sans-serif;
+    font: 700 48px/1.2 'Heebo', sans-serif;
   } 
   .my-name-large {
-    font: 900 55px/1.2 'Menlo', sans-serif;
+    font: 900 45px/1.2 'Menlo', sans-serif;
   } 
 }
 
