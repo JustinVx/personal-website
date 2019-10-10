@@ -277,7 +277,7 @@ a:hover {
   color: #f5f5f5;
   padding: 2rem;
   border-radius: 30px;
-  margin-right: 3rem;
+  margin: 1rem;
 }
 
 .findings dl, .findings ol, .findings ul {
@@ -298,6 +298,14 @@ a:hover {
   font-weight: 500;
   line-height: 30px;
   font-size: 18px;
+}
+
+.start-section {
+  background-color: transparent;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0;
 }
 
 /*a:hover > div.case-card {transform: scale(0.95);}

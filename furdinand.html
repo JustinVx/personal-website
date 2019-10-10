@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Furdinand by Justin Venbrux</title>
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Viewport -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- CSS including Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- lax -->
+  <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+  <script type="text/javascript">
+    window.onload = function() {
+      lax.setup() // init
+
+      const updateLax = () => {
+        lax.update(window.scrollY)
+        window.requestAnimationFrame(updateLax)
+      }
+
+      window.requestAnimationFrame(updateLax)
+    }
+  </script>
+</head>
+	<body>
+		<div class="container-fluid start-section">
+			<nav class="navbar fixed d-none d-md-flex navbar-expand-lg navbar-light bg-transparent p-5">
+        <a class="navbar-brand my-name rotate" href="index.html">Justin Venbrux</a>
+      </nav>
+			<div class="start-section">
+				<div class="fullscreen-bg">
+          <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+            <source src="bg-c.mp4" type="video/mp4">
+          </video>
+      	</div>
+			</div>
+		<div class="container-fluid offwhite-bg">
+	    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent pt-5 px-5">
+	      <a class="navbar-brand my-name rotate" href="index.html">Justin Venbrux</a>
+	      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	        <div class="navbar-nav ml-auto">
+	          <a class="nav-item nav-link" href="javascript:history.back()">X</a>
+	        </div>
+	      </div>
+	    </nav>
+
+	    
+
+	    <div class="row">
+	    	<div class="col-10 offset-2 col-md-8 offset-md-2 text-center">
+	    		<h1>A robot with needs</h1>
+	    	</div>
+	    </div>
+
+	    <div class="row spacer-s"></div>
+
+	    <div class="row">
+		    <div class="col-10 offset-2 col-md-6 offset-md-3">
+		      <p class="lead">Within ten weeks, four prototypes were build and the interaction improved on every iteration. For our third prototype we build a robot that could express attention with its arms and hug someone’s leg when it was close. What we noticed was that people sat down with the robot to interact with it. We used this for our final robot and made it bigger and able to move its arms in three dimensions so it could really hug someone. The reactions were even more positive than we expected. People wanted to take Furdinand home.</p>
+		    </div>
+		  </div>
+
+		  <div class="row spacer-l"></div>
+		  <div class="row spacer-l"></div>
+		  <div class="row spacer-l"></div>
+		  <div class="row spacer-l"></div>
+		  <div class="row spacer-l"></div>
+
+
+
+
+
+  	</div>
+  	<!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
