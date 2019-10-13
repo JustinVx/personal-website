@@ -261,6 +261,13 @@ a:hover {
   background-color: #F2EBD4;
 }
 
+.locus-bg {
+  background: url("img/locus/background.jpg") center center no-repeat;
+  background-size: cover;
+  background-color: #F2EBD4;
+  height: 500px;
+}
+
 .offwhite-bg {
   background-color: #f5f5f5;
 }
@@ -300,6 +307,8 @@ a:hover {
   width: 100%;
   padding: 0;
 }
+
+
 
 /*a:hover > div.case-card {transform: scale(0.95);}
 a:hover > div > h3 > span {color: black;}
